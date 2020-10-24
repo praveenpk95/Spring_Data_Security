@@ -26,7 +26,7 @@ public class JWTController {
 	private AuthenticationManager authenticationManager;
 	
 	@Autowired
-	private UserDetailsService userDetailsService;
+	private MyUserDetailsService userDetailsService;
 	
 	@Autowired
 	private JwtUtil jwtUtil;
